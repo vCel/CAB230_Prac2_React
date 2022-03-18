@@ -43,7 +43,7 @@ const AnimalComponent = ({ name, number, eats }) => (
   <div>
     <h1>{name}</h1>
     <p>{number}</p>
-    <p>{eats.join(`, `)}</p>
+    <p>{eats}</p>
   </div>
 );
 
